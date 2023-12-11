@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculater</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Tip Calculator</h2>
+        
+        <form >
+           
+            <input type="text" name="fname" placeholder="pune">
+            <input type="number" placeholder="number of people" class="bill" min="0">
+            <input type="range" value="0" class="tip-input">
+            <span class="tip-percentage">%</span>
+        </form>
+        <div class="result">
+            <div class="output">Tips : <span class="tip-amount"></span> </div>
+            <div class="output"> : <span class="total"></span> </div>
+        </div>
+    </div>
+
+    
+</body>
+<script src="script.js"></script>
+</html>

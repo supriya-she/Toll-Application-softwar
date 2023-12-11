@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color:#fff;
+}
+body{
+    height: 100vh;
+    width: 100vh;
+    background-color: #03109a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    width: 300px;
+    box-shadow: 0 0 5px #000;
+    padding:15px;
+    border-radius:12px;
+}
+h2{
+    text-align: center;
+    background-color: #000;
+    padding:8px;
+    border-radius: 8px;
+}
+.bill{
+    height: 35px;
+    width: 100%;
+    background: none;
+    outline: none;
+    border: solid 3px;
+    margin: 12px 0;
+    padding: 8px;
+    border-radius: 5px;
+}
+.tip-input{
+    width: 83%;
+    margin: 12px 0 20px 0;
+}
+.result{
+    border-top:solid 1px;
+}
+.output{
+    background-color: #000;
+    margin: 12px 0;
+    padding: 8px;
+    border-radius: 8px;
+}
